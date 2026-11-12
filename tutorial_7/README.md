@@ -19,3 +19,6 @@ Inject some bugs to the implementations of the source files and open a pull requ
 ## Expected Results
 
 ![Expected Result](expected_results.png)
+---
+
+CI: every push and pull request runs `python -m unittest discover` (Python 3.11).
